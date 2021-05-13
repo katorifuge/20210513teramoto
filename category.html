@@ -16,51 +16,75 @@
   <!------- header ------->
   <header class="header">
     <div class="header-article">
-      <img src="img/estramedia__logo.png">
+      <div class="header__img">
+        <a href="index.html"><img src="img/estramedia__logo.png"></a>
+      </div>
       <nav class="header__nav pc">
         <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>PHP</li>
-          <li>MySQL</li>
+          <li><a href="">HTML</a></li>
+          <li><a href="">CSS</a></li>
+          <li><a href="">JavaScript</a></li>
+          <li><a href="">PHP</a></li>
+          <li><a href="">MySQL</a></li>
         </ul>
       </nav>
     </div>
   </header>
   <main>
-    <!------- firstview ------->
-    <div class="firstview">
-      <h1 class="firstview__ttl">HTML</h1>
+    <!------- category-ttl------->
+    <div class="category__ttl">
+      キャリア
     </div>
-    <!------- category ------->
-        <div class="newpost__item">
-          <img class="newpost__img" src="img/card.jpg" alt="">
-          <div class="newpost__item--tag">HTML</div>
-          <div class="newpost__item--llt">プログラミング学習の勉強方法を特集。挫折しない秘訣とは？</div>
-          <div class="newpost__item--date">2021-02-26</div>
-        </div>
-    <!------- sidebar ------->
-    <aside class="aside">
-      <div class="sidebar">
-        <img class="sidebar__img" src="img/banner.png" alt="">
-        <div class="sidebar__profile">
-          <img class="sidebar__profile--logo" src="estramedia__logo.png" alt="">
-          <p class="sidebar__profile--name">エストラ編集部</p>
-          <p class="sidebar__profile--txt">プロフィール文が入ります。プロフィール文が入ります。プロフィール文が入ります。プロフィール文が入ります。プロフィール文が入ります。</p>
-        </div>
-        <div class="sidebar__category">
-          <p class="sidebar__category--ttl">Category</p>
-          <ul class="sidebar__category--list">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>PHP</li>
-            <li>MySQL</li>
-          </ul>
-        </div>
+    <!------- category-item ------->
+    <div class="category">
+      <div class="index__column">
+        <div class="newpost__article index__left-column category__article">
+            <div class="newpost__item category__item">
+              <a href="">
+                <img class="newpost__item--img" src="img/blog__first.jpg" alt="">
+                <div class="newpost__item--ttl">プログラミングでフリーランスになるには??</div>
+                <div class="newpost__item--date">2021-02-26</div>
+              </a>
+            </div>
+          </div>
+
+        <!------- sidebar ------->
+        <aside class="sidebar index__sidebar">
+          <a href="">
+            <div class="sidebar__img">
+              <img src="img/banner.png" alt="">
+            </div>
+          </a>
+          <div class="sidebar__profile">
+            <div class="sidebar__profile--logo">
+              <img src="img/estramedia__logo.png" alt="">
+            </div>
+            <p class="sidebar__profile--name">エストラ編集部</p>
+            <p class="sidebar__profile--txt">プロフィール文が入ります。プロフィール文が入ります。プロフィール文が入ります。プロフィール文が入ります。プロフィール文が入ります。</p>
+          </div>
+          <div class="sidebar__category">
+            <p class="sidebar__category--ttl">Category</p>
+            <ul class="sidebar__category--list">
+              <a href="">
+                <li>HTML</li>
+              </a>
+              <a href="">
+                <li>CSS</li>
+              </a>
+              <a href="">
+                <li>JavaScript</li>
+              </a>
+              <a href="">
+                <li>PHP</li>
+              </a>
+              <a href="">
+                <li>MySQL</li>
+              </a>
+            </ul>
+          </div>
+        </aside>
       </div>
-    </aside>
+    </div>
   </main>
   <!------- footer ------->
   <footer class="footer">
